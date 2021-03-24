@@ -15,14 +15,14 @@
     - For NDK and Gradle the path is the location where you downloaded and extracted those files.
     - For SDK the location will be mentioned in the Android Studio. 
 
-    ![](1.png) 
+    ![](Img_and_Vid/1.png) 
 
 #
 ## Follow the below steps once you have downloaded and assigned the SDK, NDK and Gradle.
 
 1)	Click on File -> Build Settings, this will open a Build setting window. Select the option called Android and then click on Switch Platform. Now wait for it to load.
 
-    ![](Step1.gif)
+    ![](Img_and_Vid/Step1.gif)
 #
 2) Select Player Settings and make the following changes:
     -  Change the default company name to your company name.
@@ -40,7 +40,7 @@
 
         f) Check the box for ARM64 under Target Architecture.
 
-    ![](Step2.gif)
+    ![](Img_and_Vid/Step2.gif)
 
     - Select "Publishing Settings"
 
@@ -56,16 +56,16 @@
 
         f) [Note: this step is only if you are using unity version 2019.x, this is not required for unity version 2020] Check the box for Custom Main Gradle Template and Custom Launcher Gradle Template.
 
-    ![](Step3.gif)
+    ![](Img_and_Vid/Step3.gif)
 #
 3) Click on Windows -> Package manager and install ARFoundation version 4.1.3, ARCore XR Plugin version 4.1.3.
 
-    ![](Step4.gif)
+    ![](Img_and_Vid/Step4.gif)
 
 #
 4) Click on File -> Build Settings -> Player Settings -> XR Plug-in Management, and check the box for ARCore.
 
-    ![](Step5.gif)
+    ![](Img_and_Vid/Step5.gif)
 #
 5) In the Hierarchy :
     - Select the Main Camera and delete it.
@@ -73,7 +73,7 @@
     - Select the AR Camera from the Hierarchy and change the tag as "Main Camera".
     - Right click on the Hierarchy again and select XR -> AR Session.
 
-    ![](Step6.gif)
+    ![](Img_and_Vid/Step6.gif)
 #
 6) Editing Gradle files: 
     - Open the Gradle files mainTemplate.gradle and launcherTemplate.gradle which can be found in your project folder : Assets/Plugins/Android/
@@ -136,11 +136,11 @@
 
 6) Wait for the build to be completed and the app to launch in your phone.
 
-![](Step7.gif)
+![](Img_and_Vid/Step7.gif)
 
 7) After launching if you are able to see the cube and its tracked when you move the phone , all the setting are prefect and you should not have any problem 
 
-![](Step8.gif)
+![](Img_and_Vid/Step8.gif)
 
 ## PERSONNEL SUGGESTION
 
