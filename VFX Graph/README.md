@@ -22,17 +22,17 @@ We will first create a simple system where a particle spawns that represent a ro
 
     a) In the spawn node, change the Spawn rate to 1, so that we have one particle every 1 second
 
-        ![](Img_and_Vid/VXF1.png)
+    ![](Img_and_Vid/VXF1.png)
 
     b) In the initialize particle node:
     - We want the particle to shoot up, so under the "Set velocity Random" component change the 'y' values to 14.
     - We want it to disappear after a second, so under "Set Life Random" component change the values to 1 and 1.2.
 
-        ![](Img_and_Vid/VXF2.png)
+    ![](Img_and_Vid/VXF2.png)
 
     c) With this, the particle now keeps shooting up and to make it realistic we need to add a gravity component. Select the update node, hit the space bar which will open a search menu. Search for gravity and hit enter.
 
-        ![](Img_and_Vid/VXF3.png)
+    ![](Img_and_Vid/VXF3.png)
 
     d) Last step is to change the way the particles look. So, make the following changes in the output node:
     - Change the blend mode from alpha to additive.
