@@ -134,5 +134,5 @@ To create the rocket explosion follow the below steps
         ![](Img_and_Vid/VXF10.png)
         ![](Img_and_Vid/VFXExpolosion2.gif)
 
-4)  Our firework is finally ready !
+4)  Our firework effect is finally ready !
 ![](Img_and_Vid/VFXFirework.gif)
