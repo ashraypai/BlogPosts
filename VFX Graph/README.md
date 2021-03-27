@@ -2,7 +2,7 @@
 
 ###  I have setup the VFX graph 1st and then the post processing to show the difference postprocessing makes.
 We will first create a simple system where a particle spawns that represent a rocket launching. Then add post processing to make it look realistic and finally get back to VFX graph to create the Fireworks.    
-#
+
 ## Setting up VFX Graph
 
 1) Install the Visual Effect Graph from the Package Manger.
@@ -52,8 +52,6 @@ We will first create a simple system where a particle spawns that represent a ro
     ![](Img_and_Vid/VFXBefore.gif)
 
 
-#
-
 ## Setting up Post Processing
 
 1) Install the Post Processing Package from the Package Manager.
@@ -96,7 +94,7 @@ We will first create a simple system where a particle spawns that represent a ro
 
     ![](Img_and_Vid/VFXBloomEffect.gif) 
 
-#
+
 ## Here is a side to side comparison with and with out Post Processing 
 
 Yes ! for some reason in the sene view there is no change seen.
@@ -105,7 +103,7 @@ Yes ! for some reason in the sene view there is no change seen.
 
    ![](Img_and_Vid/VFXBloomEffect.gif) 
 
-#
+
 ## Continuing with the Firework effects
 
 To create the rocket explosion, follow the below steps
@@ -151,8 +149,6 @@ To create the rocket explosion, follow the below steps
 
 4)  Our firework effect is finally ready!
 ![](Img_and_Vid/VFXFirework.gif)
-
-#
 
 ## In this next section we will try to Move this to an augmented reality.
 
