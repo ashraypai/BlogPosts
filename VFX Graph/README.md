@@ -1,6 +1,6 @@
-# This blog I try to capture the setup and usage of postprocessing and VFX graph to make fireworks in AR
+# In this blog I try to capture the setup and usage of Postprocessing along VFX graph to make fireworks in AR
 
-### Here I have setup the VFX graph 1st and then The post processing to show the difference postprocessing makes.
+###  I have setup the VFX graph 1st and then the post processing to show the difference postprocessing makes.
 We will first create a simple system where a particle spawns that represent a rocket launching. Then add post processing to make it look realistic and finally get back to VFX graph to create the Fireworks.    
 #
 ## Setting up VFX Graph
@@ -48,15 +48,6 @@ We will first create a simple system where a particle spawns that represent a ro
 
      ![](Img_and_Vid/VFXBefore.gif)
 )
-
-
-4) To add the Bloom effect, Select the PostProcessing Profile and click on Add effect -> Unity -> Bloom. 
-
-    ![](Img_and_Vid/PPAddBloomEffect.png) 
-
-5) For us to see the bloom effect we need to create an empty game object and add a component called Post-Process Volume
-
-    ![](Img_and_Vid/PPAddComponent.png) 
 
 
 ## Setting up Post Processing
