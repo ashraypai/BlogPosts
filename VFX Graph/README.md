@@ -7,7 +7,7 @@ We will first create a simple system where a particle spawns that represent a ro
 
 1) Install the Visual Effect Graph from the Package Manger.
 
-![](Img_and_Vid/VisualEffectGraph.png)
+    ![](Img_and_Vid/VisualEffectGraph.png)
 
 2) Right click on your Project and Create a Visual Effects -> Visual Effect graph, and name it as Fireworks
 
@@ -47,7 +47,7 @@ We will first create a simple system where a particle spawns that represent a ro
 5) Now your particles should look something like this:
 
      ![](Img_and_Vid/VFXBefore.gif)
-)
+
 
 #
 
