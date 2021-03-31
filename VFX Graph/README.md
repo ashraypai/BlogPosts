@@ -156,3 +156,9 @@ I am not sure if ARCamera will be able to perform post processing as this Game c
 I am not sure if VFX graph will work on android phone
 Shortly we will find an answer for all these Questions.
 
+## VFX GRAPH DOES NOT WORK WITH ARCORE !
+The apps get built, the fireworks get augments as well, but the particles are distorted and looks horrible.
+However it works with Iphone, here is a github link : https://github.com/DanMillerDev/ARFoundation_VFX
+Try it out !
+
+In the meanwhile I will wait for Unity to releases VFX Graph support for ARCore.  
