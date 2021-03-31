@@ -1,24 +1,37 @@
-# The basic setup required to build and upload AR app/game on Play Store 
+# This blog will help you in setting up Unity for building and upload AR app/game on Play Store 
 
-## Quick guide for downloading Dev Kits
+## Prerequisites 
+Make sure to have the following software downloaded and installed.
+1) Unity 2019.4.15f1 and above. (In "Add Modules" make sure to have "Android build support" installed)
+2) Android studio.
 
-1) Download links :
-    - NDK : https://dl.google.com/android/repository/android-ndk-r19-windows-x86_64.zip
+
+## Quick guide for downloading and assigning Dev Kits:
+Below are some developments kits that are required to successfully build the app:
+
+1) Download links:
+    - NDK: https://dl.google.com/android/repository/android-ndk-r19-windows-x86_64.zip
     - Gradle: https://gradle.org/releases/
 
-2) Once its downloaded, extract the zip files and place it an your desired location.
+2) Once its downloaded, extract the zip files and place it in your desired location.
 
 3) Using Android Studio download the SDK for version 8.0 and above.
 
-4) In unity go to Edit -> Preferences -> External Tool, and enter the path of the respective Dev Kits.
-    - Generally for the JDK the path is going to be : D:/"SOME_LOCATION"/2019.4.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK 
+4) In unity go to Edit -> Preferences -> External Tool and enter the path of the respective Dev Kits.
+    - Generally for the JDK the path is going to be: D:/"SOME_LOCATION"/2019.4.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK 
     - For NDK and Gradle the path is the location where you downloaded and extracted those files.
     - For SDK the location will be mentioned in the Android Studio. 
 
     ![](Img_and_Vid/1.png) 
 
+This is for your understanding: 
+- NDK (The Native Development Kit) is a set of tools that allows you to use C and C++ code with Android, and provides platform libraries you can use to manage native activities and access physical device components, such as sensors and touch input etc.
+- SDK (A software development kit) is a collection of software development tools in one installable package. They facilitate the creation of applications by having a compiler, debugger and perhaps a software framework.
+- JDK (Java Development Kit) is a software development environment that offers a collection of tools and libraries necessary for developing Java applications.
+- Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing. 
+
 #
-## Follow the below steps once you have downloaded and assigned the SDK, NDK and Gradle.
+## Setting up Unity's Player setting and downloading AR packages.
 
 1)	Click on File -> Build Settings, this will open a Build setting window. Select the option called Android and then click on Switch Platform. Now wait for it to load.
 
@@ -26,7 +39,7 @@
 #
 2) Select Player Settings and make the following changes:
     -  Change the default company name to your company name.
-    -  Select "Other Settings" 
+    -  Select "Other Settings”. 
 
         a) Remove Vulcan from Graphics API.
 
@@ -34,7 +47,7 @@
 
         c) Change Minimum API level to Android 8.0 and above 
 
-        d) Change Scripting Backend to IL2CPP , why ? To view ARM64 architecture.
+        d) Change Scripting Backend to IL2CPP, why ? To view ARM64 architecture.
 
         e) Change Api Compatibility Level to .NET 4.x
 
@@ -42,7 +55,7 @@
 
     ![](Img_and_Vid/Step2.gif)
 
-    - Select "Publishing Settings"
+    - Select "Publishing Settings”.
 
         a) Click on Keystore Manager, select Keystore... and click on Create a new key.
 
@@ -63,7 +76,7 @@
     ![](Img_and_Vid/Step4.gif)
 
 #
-4) Click on File -> Build Settings -> Player Settings -> XR Plug-in Management, and check the box for ARCore.
+4) Click on File -> Build Settings -> Player Settings -> XR Plug-in Management and check the box for ARCore.
 
     ![](Img_and_Vid/Step5.gif)
 #
@@ -128,9 +141,9 @@
 
 2) Reduce the scale of cube to 0.5, 0.5, 0.5
 
-3) Drag it in Z-direction will its seen in the Game view.
+3) Drag it in Z-direction till it is seen in the Game view.
 
-4) [ Make sure your phone is connected and Debug mode is enabled and allowed on your phone ] Click on File -> Build Settings -> Add Open Scene -> Build and Run.
+4) [ Make sure your phone is connected and Debug mode is enabled and allowed on your phone] Click on File -> Build Settings -> Add Open Scene -> Build and Run.
 
 5) Give a name to your apk and save it.
 
@@ -138,12 +151,12 @@
 
 ![](Img_and_Vid/Step7.gif)
 
-7) After launching if you are able to see the cube and its tracked when you move the phone , all the setting are prefect and you should not have any problem 
+7) After launching if you are able to see the cube and it is tracked when you move the phone, this would mean that all the setting are prefect and you should not have any problem 
 
 ![](Img_and_Vid/Step8.gif)
 
 ## PERSONNEL SUGGESTION
 
 Once you have it tested and ready, save the project and exit it.
-Go to the location where you had created this project and make a copy of it and rename it as Template.
-Next time if you want to create a new AR Project , juts make another copy of the template and start working directly , you will not have to do this entire process again!! 
+Navigate to the location of this project and rename it as Template.
+Next time if you want to create a new AR Project, just make another copy of the template and start working directly , you will not have to do this entire process again!!
