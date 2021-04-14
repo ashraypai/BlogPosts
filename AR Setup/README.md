@@ -1,9 +1,13 @@
-# This blog will help you in setting up Unity for building and upload AR app/game on Play Store 
+# This blog will help you in setting up Unity for building and upload AR apps and games on the Google Play Store 
+# How to setup your AR app to be launched on the Google Play Store
+
+## Intro 
+just a few sentences
 
 ## Prerequisites 
 Make sure to have the following software downloaded and installed.
-1) Unity 2019.4.15f1 and above. (In "Add Modules" make sure to have "Android build support" installed)
-2) Android studio.
+1) Unity 2019.4.15f1 and above. (In "Add Modules" make sure to have "Android build support" installed) // add download link
+2) Android studio (mention the version). // add download link
 
 
 ## Quick guide for downloading and assigning Dev Kits:
@@ -13,27 +17,27 @@ Below are some developments kits that are required to successfully build the app
     - NDK: https://dl.google.com/android/repository/android-ndk-r19-windows-x86_64.zip
     - Gradle: https://gradle.org/releases/
 
-2) Once its downloaded, extract the zip files and place it in your desired location.
+2) Once it's downloaded, extract the zip files and place them in your desired location.
 
 3) Using Android Studio download the SDK for version 8.0 and above.
 
-4) In unity go to Edit -> Preferences -> External Tool and enter the path of the respective Dev Kits.
+4) In Unity go to Edit -> Preferences -> External Tools and enter the path of the respective Dev Kits.
     - Generally for the JDK the path is going to be: D:/"SOME_LOCATION"/2019.4.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/OpenJDK 
-    - For NDK and Gradle the path is the location where you downloaded and extracted those files.
+    - For NDK and Gradle the path is the location where you downloaded and extracted the files.
     - For SDK the location will be mentioned in the Android Studio. 
 
     ![](Img_and_Vid/1.png) 
 
-This is for your understanding: 
+**Helpful to know**
 - NDK (The Native Development Kit) is a set of tools that allows you to use C and C++ code with Android, and provides platform libraries you can use to manage native activities and access physical device components, such as sensors and touch input etc.
 - SDK (A software development kit) is a collection of software development tools in one installable package. They facilitate the creation of applications by having a compiler, debugger and perhaps a software framework.
 - JDK (Java Development Kit) is a software development environment that offers a collection of tools and libraries necessary for developing Java applications.
 - Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing. 
 
 #
-## Setting up Unity's Player setting and downloading AR packages.
+## Setting up Unity's player settings and downloading AR packages.
 
-1)	Click on File -> Build Settings, this will open a Build setting window. Select the option called Android and then click on Switch Platform. Now wait for it to load.
+1)	Click on File -> Build Settings, this will open a Build settings window. Select the option called Android and then click on switch platform. Now wait for it to load.
 
     ![](Img_and_Vid/Step1.gif)
 #
@@ -131,7 +135,7 @@ This is for your understanding:
 
 #
 
-## That's it! Now the project is ready for development and apk can be easily built and uploaded on Play Store.
+## That's it! Now the project is ready for development and APK can be easily built and uploaded on Play Store.
 
 #
 
@@ -139,24 +143,36 @@ This is for your understanding:
 
 1) In the Hierarchy right click, 3D Object -> Cube 
 
-2) Reduce the scale of cube to 0.5, 0.5, 0.5
+2) Reduce the scale of cube to (0.5, 0.5, 0.5)
 
 3) Drag it in Z-direction till it is seen in the Game view.
 
 4) [ Make sure your phone is connected and Debug mode is enabled and allowed on your phone] Click on File -> Build Settings -> Add Open Scene -> Build and Run.
 
-5) Give a name to your apk and save it.
+5) Give a name to your APK and save it.
 
 6) Wait for the build to be completed and the app to launch in your phone.
 
 ![](Img_and_Vid/Step7.gif)
 
-7) After launching if you are able to see the cube and it is tracked when you move the phone, this would mean that all the setting are prefect and you should not have any problem 
+7) After launching if you are able to see the cube and it is tracked when you move the phone, this would mean that all the setting are prefect and you should not have any problem.
 
 ![](Img_and_Vid/Step8.gif)
 
-## PERSONNEL SUGGESTION
+## Personal suggestion
 
-Once you have it tested and ready, save the project and exit it.
-Navigate to the location of this project and rename it as Template.
-Next time if you want to create a new AR Project, just make another copy of the template and start working directly , you will not have to do this entire process again!!
+Once you have the project tested and ready, save and exit it. 
+Navigate to the location of this project and rename it as a Template.
+Next time if you want to create a new AR Project, just make another copy of the template and start working directly ,you will not have to do this entire process again!!
+
+## Summary
+
+- asdfasd
+- aasdf
+- asdf
+
+If you are interested in creating your own amazing AR and VR apps you can learn more about it on https://dineshpunni.com/immersive-insiders
+And if you have any questions don't hesitate to reach out!
+
+- Ashray
+
