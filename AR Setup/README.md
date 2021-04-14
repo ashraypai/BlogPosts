@@ -1,16 +1,15 @@
-# This blog will help you in setting up Unity for building and upload AR apps and games on the Google Play Store 
 # How to setup your AR app to be launched on the Google Play Store
 
-## Intro 
+
 just a few sentences
 
-## Prerequisites 
+## 1. Prerequisites 
 Make sure to have the following software downloaded and installed.
 1) Unity 2019.4.15f1 and above. (In "Add Modules" make sure to have "Android build support" installed) // add download link
 2) Android studio (mention the version). // add download link
 
 
-## Quick guide for downloading and assigning Dev Kits:
+## 2. Quick guide for downloading and assigning Dev Kits:
 Below are some developments kits that are required to successfully build the app:
 
 1) Download links:
@@ -35,7 +34,7 @@ Below are some developments kits that are required to successfully build the app
 - Gradle is a build automation tool for multi-language software development. It controls the development process in the tasks of compilation and packaging to testing, deployment, and publishing. 
 
 #
-## Setting up Unity's player settings and downloading AR packages.
+## 3. Setting up Unity's player settings and downloading AR packages.
 
 1)	Click on File -> Build Settings, this will open a Build settings window. Select the option called Android and then click on switch platform. Now wait for it to load.
 
@@ -135,11 +134,13 @@ Below are some developments kits that are required to successfully build the app
 
 #
 
-## That's it! Now the project is ready for development and APK can be easily built and uploaded on Play Store.
+**That's it! Now the project is ready for development and APK can be easily built and uploaded on Play Store.
+**
+
 
 #
 
-## Testing
+## 4. Testing
 
 1) In the Hierarchy right click, 3D Object -> Cube 
 
@@ -159,8 +160,8 @@ Below are some developments kits that are required to successfully build the app
 
 ![](Img_and_Vid/Step8.gif)
 
-## Personal suggestion
-
+**Personal suggestion
+**
 Once you have the project tested and ready, save and exit it. 
 Navigate to the location of this project and rename it as a Template.
 Next time if you want to create a new AR Project, just make another copy of the template and start working directly ,you will not have to do this entire process again!!
