@@ -54,3 +54,13 @@ This completes the basic setup for developing VR projects without headsets. In t
 
 ## Using controls in the simulator
 
+- For better visualization and understanding download this [XR-Interaction-Toolkit-Examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples) from github.
+    1. Open unity hub, add the project 'VR' and open it in unity. 
+    ![](Img_and_Vid/13.png)
+    2. In the project window select Scenes and double click on "WorldInteractionDemo"
+    ![](Img_and_Vid/14.png)
+
+Now we can move on to learn the key bindings.
+ 
+ 1. To look around  
+ 
