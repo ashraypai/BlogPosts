@@ -1,6 +1,6 @@
 # How to setup your AR app to be launched on the Google Play Store
 
-In order to publish an app on the google play store, there are certain standards that are to be followed. This blog covers all the steps that you will need to successfully publish your app. The main focus here is setting up unity in such a way that, after building your apk and uploading it on google play console, you will not receive any compliance errors. This blog does not tell you the steps that are to be followed inside of google play console. This [documentation](https://support.google.com/googleplay/android-developer/answer/9859152) from google will guide you through the setps to be followed inside of google play console.
+In order to publish an app on the google play store, there are certain standards that are to be followed. This blog covers all the steps that you will need to successfully publish your app. The main focus here is setting up unity in such a way that, after building your apk and uploading it on google play console, you will not receive any compliance errors. This blog does not tell you the steps that are to be followed inside of google play console,however you can reffer to this [documentation](https://support.google.com/googleplay/android-developer/answer/9859152) from google which will guide you through the setps that are to be followed inside of google play console.
 
 ## 1. Prerequisites 
 Make sure to have the following software downloaded and installed.
